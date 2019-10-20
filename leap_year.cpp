@@ -8,7 +8,6 @@
 #include <string>
 
 int main() {
-    // variables
     std::string year;
     int number;
 
@@ -16,7 +15,6 @@ int main() {
     std::cout << "Enter a year: ";
     std::cin >> year;
 
-    // process & output
     try {
         number = std::stoi(year);
         if (number % 4 == 0) {
